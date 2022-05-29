@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Chat App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Package for features
+. To show the exact time like seconds ago I have used moment js library. 
 
-## Available Scripts
+. For routing through the app I have used react-router-dom.
 
-In the project directory, you can run:
+## Functionality
+. Click on new chat and enter the name to chat with. Press enter to add the member.
 
-### `npm start`
+. All the members will be added in chat in the way that the last created will appear on the top.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+. Now click on the person to chat with and we can type the message and press enter.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+. The latest message will be shown on chat window.
 
-### `npm test`
+. There a star option will appear beside every message. Click on the star to add that message to starred message.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+. Once a message is starred it cannot be added again in the starred message. To add again it first have to be destarred from starred message.
 
-### `npm run build`
+. To view starred message click on starred message and there the message will be shown.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+. An option to unstar the message will also appear beside every message.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Assumptions 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+. It was getting complex for me to show options while hovering on messages. I was using mouse events but while using them all the messages were getting effected, so it was creating a bug.
 
-### `npm run eject`
+. I knew how that funcitionality can be implemented so I have put a static star to show the same functionality.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+. The app could have been more optimised with basic changes like adding one more component we can reduce the code. This hover problem can also be solved but due to my health issue I can't focus much.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

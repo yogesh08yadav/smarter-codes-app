@@ -1,0 +1,45 @@
+.sidebar{
+    height: 100vh;
+    width: 25%;
+    border-right: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    /* flex: 0.5; */
+}
+.sidebar_header{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* flex: 0.64; */
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+.sidebar_header > h4{
+    margin-left: 20px;
+    margin-top: 17px;
+}
+.sidebar_input{
+    width: 100%;
+    background-color: #fff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.sidebar_input > form > input{
+    width: 100%;
+    background-color:#dadbd3 ;
+    outline: none;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+}
+.sidebar_chat{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}

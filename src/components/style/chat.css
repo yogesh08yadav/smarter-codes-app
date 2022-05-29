@@ -1,0 +1,72 @@
+.chat_right{
+    /* width: 75% ; */
+   /* flex: 0.65; */
+   /* width: 40%;
+   margin: auto; */
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.chat_header{
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    border-bottom: 2px solid lightgray;
+}
+.chat_header > h3{
+   padding: 20px;
+}
+.chat_header > LetteredAvatar{
+    padding: 10px;
+}
+.options{
+    margin-left: 30px;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+}
+.chat_body{
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.chat_message {
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 1000px;
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    /* bottom: 20%; */
+    margin-bottom: 10px;
+}
+
+
+
+.chat_footer{
+    position: absolute;
+    bottom: 0%;
+    width: 50%;
+    margin-left: 170px;
+}
+.chat_footer >form > input {
+    width: 98%;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-bottom: 2px solid lightgray;
+    border-radius: 5px;
+}
+.footer_options{
+    display: flex;
+    justify-content: space-between;
+}
