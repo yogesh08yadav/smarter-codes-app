@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/smarter-codes-app/static/css/main.02f5dcd7.css",
+    "main.js": "/smarter-codes-app/static/js/main.b6b41ff3.js",
+    "static/js/787.6f726199.chunk.js": "/smarter-codes-app/static/js/787.6f726199.chunk.js",
+    "index.html": "/smarter-codes-app/index.html",
+    "main.02f5dcd7.css.map": "/smarter-codes-app/static/css/main.02f5dcd7.css.map",
+    "main.b6b41ff3.js.map": "/smarter-codes-app/static/js/main.b6b41ff3.js.map",
+    "787.6f726199.chunk.js.map": "/smarter-codes-app/static/js/787.6f726199.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02f5dcd7.css",
+    "static/js/main.b6b41ff3.js"
+  ]
+}
